@@ -1,0 +1,4 @@
+569c569
+< 	$tmp=length($buff)-length($ss);
+---
+> 	$tmp=length($buf)-length($ss);
