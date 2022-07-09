@@ -1,3 +1,5 @@
+> :warning: **Do not use normalize line endings**: sable.pl.patch contains CRLF; Converting them into LF will leed to an error while building the docker image.
+
 # SABLE v4 - Docker
 Docker image for SABLE v4 http://sable.cchmc.org/
 
