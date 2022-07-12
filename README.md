@@ -16,7 +16,7 @@ During the build process sequences required for the BLAST database used by SABLE
 ## How to run this image
 Once the image has been built predictions can be run by executing
 ```console
-docker -i --rm sable < input_seq.fasta > result.txt
+docker run -i --rm sable < input_seq.fasta > result.txt
 ```
 Single and multiple sequence FASTA files are supported. Prediction results (OUT_SABLE_RES) are written to stdout.
 
